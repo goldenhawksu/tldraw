@@ -105,10 +105,6 @@
 		"typescript": "^5.3.3",
 		"vercel": "^34.2.4"
 	},
-	"// resolutions.canvas": [
-		"our examples app depenends on pdf.js which pulls in canvas as an optional dependency.",
-		"it slows down installs quite a bit though, so we replace it with an empty package."
-	],
 	"resolutions": {
 		"@microsoft/api-extractor@^7.35.4": "patch:@microsoft/api-extractor@npm%3A7.35.4#./.yarn/patches/@microsoft-api-extractor-npm-7.35.4-5f4f0357b4.patch",
 		"vectra@^0.4.4": "patch:vectra@npm%3A0.4.4#./.yarn/patches/vectra-npm-0.4.4-6aac3f6c29.patch",
@@ -123,6 +119,8 @@
 		"esbuild": "^0.21.5",
 		"mime": "^4.0.3",
 		"purgecss": "^5.0.0",
-		"svgo": "^3.0.2"
+		"svgo": "^3.0.2",
+		"@tldraw/store": "^0.0.1",
+		"@tldraw/assets": "^0.0.1"
 	}
 }
