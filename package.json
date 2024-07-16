@@ -121,6 +121,8 @@
 		"purgecss": "^5.0.0",
 		"svgo": "^3.0.2",
 		"@tldraw/store": "^0.0.1",
-		"@tldraw/assets": "^0.0.1"
+		"@tldraw/assets": "^0.0.1",
+		"@tldraw/utils": "^0.0.1",
+		"@tldraw/sync-core": "^0.0.1"
 	}
 }
